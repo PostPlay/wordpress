@@ -55,7 +55,7 @@ class PostPlayOptions {
                         <th scope="row">API Key</th>
                         <td>
                             <input type="text" class="regular-text" name="_postplay_api_key" placeholder="API Key" value="<?php echo esc_attr(get_option('_postplay_api_key')); ?>" />
-                            <p class="description">Find your API key <a href="#">here</a>.</p>
+                            <p class="description">Find your API key <a href="https://app.postplay.io/settings/api-keys">here</a>.</p>
                         </td>
                     </tr>
                 </table>

@@ -25,7 +25,7 @@
         <?php if (isset($api_status_data->prev_agents) && is_array($api_status_data->prev_agents)): ?>
             <div class="postplay-select-wrapper">
                 <select name="pref_agent">
-                    <option value="">Any agent</option>
+                    <option value="">Any Voice Actor</option>
                     <?php
                     foreach ($api_status_data->prev_agents as $agent) {
                         echo '<option value="' . $agent->id . '">' . $agent->name . '</option>';
